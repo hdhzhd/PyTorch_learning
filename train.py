@@ -83,6 +83,6 @@ for i in range(epoch):
     total_test_step = total_test_step + 1
 
     torch.save(test, "test_{}.pth".format(i))
-    print("模型已保存")
+    print("模型已保存,ok")
 
 writer.close()
